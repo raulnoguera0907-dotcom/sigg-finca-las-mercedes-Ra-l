@@ -22,14 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
        la ruta real (por ejemplo href="modulos/hato.html") y quita
        el aria-disabled="true" del HTML. */
     const enlaces = document.querySelectorAll('.modulo__enlace[aria-disabled="true"]');
-
-    enlaces.forEach(function (enlace) {
-        enlace.addEventListener("click", function (evento) {
-            evento.preventDefault();
-
-            const nombre = enlace.querySelector(".modulo__nombre").textContent;
-            alert("El módulo «" + nombre + "» todavía está en construcción.");
-        });
-    });
-
-});

@@ -22,7 +22,7 @@ En desarrollo.
 ```bash
 
 # Clonar el repositorio
-git clone https://github.com/Ing-ZulmaSalas/sigg-finca-las-mercedes.git
+git clone https://github.com/Raúl Noguera/sigg-finca-las-mercedes.git
 
 # Entrar al directorio
 cd sigg-finca-las-mercedes
